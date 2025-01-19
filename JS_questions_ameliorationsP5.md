@@ -46,4 +46,35 @@ Voici une série de questions que tu peux te poser pour améliorer ton script Ja
   - Une vérification si les fichiers d'image existent avant de les charger ?
   - Des logs pour aider à déboguer des problèmes inattendus ?
 
-Si tu souhaites que je t'aide à refactoriser le code ou à répondre à certaines de ces questions, fais-le moi savoir ! 😊
+
+## Pour sortir les foctions dans les fichiers séparés :
+
+### Script principal : index.js
+Avoir un index.js qui le sera le script principal.
+Ajouter un type="module" dans le script HTML
+Modifie ton fichier HTML pour charger le fichier principal en tant que module :
+```
+<script type="module" src="./js/index.js"></script>
+```
+
+
+
+### Fichiers additionnels (regroupements par module). Exemple avec le P5
+- Fichier slider.js Regroupe toutes les fonctions spécifiques au slider
+- Fichier domUtils.js Ce fichier contiendra des utilitaires génériques pour manipuler le DOM.
+Dans ces fichiers on déclare les fonctions avec "export"
+```
+export function getElement(selector) {
+  return document.querySelector(selector);
+}
+```
+
+### Import des autres fonctions dans Index (référence aux fichiers)
+En haut du fichier un importe les fonctions des autres fichiers
+ex :
+
+```
+// index.js
+import { slides, updateBanner, updateDots, createDots } from "./slider.js";
+import { getElement, getElements } from "./domUtils.js";
+```
