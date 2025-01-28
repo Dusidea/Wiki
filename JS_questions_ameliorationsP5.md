@@ -71,6 +71,7 @@ export function getElement(selector) {
 
 ### Import des autres fonctions dans Index (référence aux fichiers)
 En haut du fichier un importe les fonctions des autres fichiers
+Attention à bien ajouter l'extension .js dans le chemin des fichiers (pas incluse dans l'autocompletion)
 ex :
 
 ```
