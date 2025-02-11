@@ -6,14 +6,14 @@ validation du W3C pour HTML et CSS
 
 **Frameworks** CSS : Tailwind, Bootstrap, Foundation
 
-##HTML vs CSS: 
+## HTML vs CSS: 
 * Le HTML constitue la structure d'une page web.
 * Le CSS permet d'ajouter du style.
 * Les deux langages se complètent avec un rôle bien défini pour chacun.
 * Le navigateur est un logiciel qui permet de lire les langages du Web : HTML et CSS.
 * Tous les navigateurs embarquent des outils de développement, dont l'outil d'inspection qui permet d'accéder au HTML et au CSS d'une page.
 
-##HTML Basics:
+## HTML Basics:
 * Pour créer une page web, on crée un fichier ayant l'extension  .html  , qui pourra être ouvert dans le navigateur web simplement en faisant un double-clic dessus.
 * Chaque fichier HTML est constitué de balises.
 * Les balises peuvent avoir plusieurs formes :
@@ -23,7 +23,7 @@ validation du W3C pour HTML et CSS
 * Une page web est constituée de deux sections principales : l'en-tête<head> </head>  dont le contenu n'apparaît pas dans l'affichage de la page et le corps <body> </body>  qui, lui, apparaît.
 
 
-##Syntaxe CSS
+## Syntaxe CSS
 CSS : sélecteur {
 		propriété : valeurs ;
 		}
@@ -31,7 +31,7 @@ ex : p {
 		color : blue;
 	}
 
-##Intégrer le CSS
+## Intégrer le CSS
 * CSS est un autre langage qui vient compléter le HTML. Son rôle est de mettre en forme votre page web.
 * Pour écrire le code CSS, on crée un fichier séparé portant l'extension .css  comme style.css.
 * Pour lier les fichiers CSS et HTML, on rajoute une ligne dans la balise <head> </head> du fichier HTML :  <link href="style.css" rel="stylesheet"> pour indiquer au navigateur d'aller chercher la feuille de style (stylesheet en anglais) afin d'afficher la page web avec les propriétés de style qu'on lui a appliquées.
@@ -43,6 +43,11 @@ Il existe plusieurs façons de sélectionner la portion de page que l'on veut me
  * toutes les balises d'un même type, en écrivant simplement leur nom (h1 par exemple) ;
 * certaines balises spécifiques, auxquelles on a donné des noms à l'aide des attributs class ou id(.nom-classe ou #nom-id) ;
 * uniquement les balises qui se trouvent à l'intérieur d'autres balises (h3,em).
+
+### Spécificité 
+- Style dans l'html >
+- Sélecteur d'identifiant # >
+- Classes, pseudo classes et attributs
 
 
 ##Modifier l’apparence du texte : 
