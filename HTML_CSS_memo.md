@@ -47,7 +47,10 @@ Il existe plusieurs façons de sélectionner la portion de page que l'on veut me
 ### Spécificité 
 - Style dans l'html >
 - Sélecteur d'identifiant # >
-- Classes, pseudo classes et attributs
+- Classes, pseudo classes et attributs > ?
+- Type/élément  (p, img, etc)
+- Sélecteur universel *
+  => attention il y a un cumul, si dans un sélecteur j'ai un ID + une classe cela cumule les prio
 
 
 ##Modifier l’apparence du texte : 
