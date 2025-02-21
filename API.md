@@ -16,3 +16,12 @@
 -  Nom de domaine (ou adresse IP) (localhost:)
 -  port : 8081 (serveur : localhost:8081
 -  chemin de la ressource /chemin
+
+- faire de mon PC un serveur : Node.js http.createServer() Method
+https://www.w3schools.com/nodejs/met_http_createserver.asp
+
+#### Node.js
+équivalent d'import en javascript => require
+https://www.freecodecamp.org/news/how-to-use-the-javascript-require-function/
+
+
