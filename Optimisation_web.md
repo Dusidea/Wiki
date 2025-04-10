@@ -37,10 +37,12 @@ Accessibilité => inclusion
    - Différer le chargement des scripts non nécessaires au 1er chargement avec "defer" ou "async) et les décaler en fin de balise body si besoin
    - Précharger les css et images (preconnect, preload)
 
-  ## Coverage
+  ## Coverage  
 Minifier les fichiers pour les rendre plus léger (suppression des espaces inutiles pour la machine, moins de caractères)
+### Tester le coverage
 Identifier le % des fichiers non utilisés (attention parfois une partie du fichier est inutile au lancement mais utile ensuite via un script) :
 - Inspecteur du navigateur > Sources : sélectionner un fichier et au niveau de console choisir coverage (possible commande à lancer dans la console pour rendre "coverage" visible)
+### Purge & Critical
 - Nettoyer les fichiers : PurgeCss pour retirer le css inutile (au 1er chargement ???)
   Installe PurgeCSS
   ```
@@ -57,14 +59,46 @@ Identifier le % des fichiers non utilisés (attention parfois une partie du fich
   - Essayer d'identifier les classes utiles qui ont été supprimées et les white lister de l'outil purge (faillible)
   - PurgeCSS réduit déjà énormément le CSS, mais pour optimiser encore plus le First Paint, on peut extraire les styles critiques (ceux visibles immédiatement) grâce à Critical
 
-
 # Référencement
 
 ## Utilisation des balises sémantiques
+- Veiller à avoir les balises de base (header/footer Nav et Main) telles quelles et non une div de class = "header" par exemple => https://ronan-hello.fr/series/html/balises-semantiques-html
+- Title : définit le titre de votre page web qui apparaît dans les résultats de recherche. accrocheur qui décrit de manière concise le contenu de votre page. Reco max char : 55
+- Meta Description : fournit une courte description de votre page web qui apparaît dans les résultats de recherche => informative et accrocheuse pour inciter les utilisateurs à cliquer sur votre lien.  Reco max char : 160
+
+## Référencement local
+
+Ensemble des techniques qui participent à positionner favorablement un site web ou la fiche établissement Google My Business d'une entreprise, parmi les premiers résultats de recherches dites locales à travers Google et les pages de résultats d'autres moteurs de recherche (SERP). => se positionner sur les résultats de recherche de type "ouvert maintenant à proximité" 
+
+### Caser le nom de la ville et le type de business dans le titre
+### Micro données
+
+Les microdonnées sont une forme de balisage HTML (comme itemprop, itemscope, itemtype) qui permet d’ajouter des données structurées à une page web.
+Elles sont utilisées pour expliquer aux moteurs de recherche ce que signifient les contenus d’une page : par exemple, qu’un nom est celui d’une personne, qu’un horaire est celui d’un magasin, etc.
+
+### Résultats enrichis (rich results ou rich snippets)
+Les résultats enrichis sont les effets visibles que ces données peuvent déclencher dans les résultats de recherche Google.
+Par exemple :
+- une fiche de personne avec sa photo
+- une carte avec les horaires d’un commerce
+- des étoiles de notation pour un produit
+
+L'outil https://search.google.com/test/rich-results (version URL ou Code) permet de prévisualiser les microdonnées identifiées pour les résultats enrichis
 
 # Accessibilité
-- micro données; ref local
-- tuto redimensionner des images
+https://www.w3.org/WAI/fundamentals/accessibility-intro/fr
+Rendre le web accessible est un avantage pour les internautes, les entreprises et la société. Les standards du web internationaux définissent ce qui est nécessaire pour l’accessibilité.  => Inclusion handicap
+Normes existantes pour s'assurer :
+- de la lisibilité avec un handicap visuel
+- de la navigation et interpretation claire avec un logiciel audio pour les malvoyants par ex
 
+## Balises
+- Avoir un titre de document
+- Intégrer l'attribut "lang" dans la balise html pour signaler la langue du doc
+- S'assurer d'avoir des labels sur les champs de formulaires, alt sur les images, title sur les liens
+## Organisation
+- Structure : respecter la hiérarchie h1 > H2 > H3 etc,
+-  attention aux structures horizontales puis verticales (ex Navigation : Heading elements are not in a sequentially-descending order)
 
-
+## Visibilité 
+- Contraste : respecter un contraste minimal entre un texte et son fond
