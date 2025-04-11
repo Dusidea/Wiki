@@ -1,6 +1,6 @@
 # Pourquoi optimiser ?
-Rapidité de chargement
-Meilleur référencement  => trafic
+Perf : Rapidité de chargement + fluidité
+SEO : Meilleur référencement  => trafic
 Accessibilité => inclusion
 
 # Outils d'audits
@@ -91,6 +91,9 @@ Rendre le web accessible est un avantage pour les internautes, les entreprises e
 Normes existantes pour s'assurer :
 - de la lisibilité avec un handicap visuel
 - de la navigation et interpretation claire avec un logiciel audio pour les malvoyants par ex
+
+## Standards
+L’Initiative pour l’accessibilité du Web, Web Accessibility Initiative du W3C (WAI (en anglais)) développe des spécifications techniques, des règles, des techniques et ressources d’accompagnement qui décrivent des solutions d’accessibilité. Elles sont considérées comme des normes internationales pour l’accessibilité du web ; par exemple, WCAG 2.0 est aussi une norme ISO : ISO/IEC 40500.
 
 ## Balises
 - Avoir un titre de document
