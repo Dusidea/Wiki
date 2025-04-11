@@ -65,6 +65,12 @@ Identifier le % des fichiers non utilisés (attention parfois une partie du fich
 - Veiller à avoir les balises de base (header/footer Nav et Main) telles quelles et non une div de class = "header" par exemple => https://ronan-hello.fr/series/html/balises-semantiques-html
 - Title : définit le titre de votre page web qui apparaît dans les résultats de recherche. accrocheur qui décrit de manière concise le contenu de votre page. Reco max char : 55
 - Meta Description : fournit une courte description de votre page web qui apparaît dans les résultats de recherche => informative et accrocheuse pour inciter les utilisateurs à cliquer sur votre lien.  Reco max char : 160
+-  Balise meta "Robots" : NON => par défaut on est en follow + index
+- Balise "Canonical" : NON => permet d'éviter que le bot conclue à la duplication de contenu (si une page est une variante d'une autre, on lui indique avec le tag canonical quelle est page parente qui sert de modèle. Ex pour des pages produits) https://www.semjuice.com/definition/balise-canonical
+- Balises "Hreflang" : NON =>  la balise Hreflang est un indicateur qui permet aux moteurs de recherche d'identifier et d'afficher un document web dans une langue spécifique en fonction de la requête et de la situation géographique de l'utilisateur.
+  - Signaler la langue de rédaction de chaque document aux robots d'exploration
+  - Garantir une bonne expérience utilisateur
+  - Se prémunir des risques de duplicate content
 
 ## Référencement local
 
