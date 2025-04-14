@@ -58,6 +58,11 @@ Identifier le % des fichiers non utilisés (attention parfois une partie du fich
   - Il faut ensuite remplacer le fichier appelé dans index.html par le fichier généré ET BIEN TESTER SI LE STYLE DE LA PAGE A ETE MODIFIE (si oui, on a supprimé des classes utiles !!)
   - Essayer d'identifier les classes utiles qui ont été supprimées et les white lister de l'outil purge (faillible)
   - PurgeCSS réduit déjà énormément le CSS, mais pour optimiser encore plus le First Paint, on peut extraire les styles critiques (ceux visibles immédiatement) grâce à Critical
+ 
+## Minification
+
+https://kinsta.com/fr/blog/minifier-javascript/
+La minification est également connue sous le nom de minimisation. La minification du code signifie l’optimisation du code pour gagner de l’espace, réduire le temps de chargement des pages et diminuer l’utilisation de la bande passante du site web. Toutefois, la plus grande préoccupation est de minimiser le code sans en altérer la fonctionnalité.
 
 # Référencement
 
