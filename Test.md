@@ -19,3 +19,6 @@ Va lancer tous les fichiers appelés nomDuFichierDuComposant.test.js (sur le com
 
 ## Jest
 Jest, script test ?
+
+## Commandes de test 
+
