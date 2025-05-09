@@ -38,5 +38,5 @@ Donc une requête : HTPPs/IP/port (un domaine hébergé sur un serveur va avoir 
 1 machine possède au moins 65K ports
 
 https://www.ionos.fr/digitalguide/hebergement/aspects-techniques/definition-protocole-http/
-
+https://github.com/Dusidea/Wiki/diagram-of-http-communication-process-fr.png
 
