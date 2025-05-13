@@ -116,3 +116,41 @@ L’Initiative pour l’accessibilité du Web, Web Accessibility Initiative du W
 
 ## Visibilité 
 - Contraste : respecter un contraste minimal entre un texte et son fond
+
+# Greencode
+## Objectif
+Des sites plus légers pour prolonger la « durée de vie utile » des terminaux => site lourd, demande + de ressources et rend les appareils "anciens" obsolètes
+
+## Principes pour un site allégé
+
+### Frugalité fonctionnelle
+- éliminer les fonctionnalités peu utilisées
+- Sélectionner les options les plus économes (envoi d'un sms plus léger qu'un mail)
+
+### Optimisation du contenant
+#### 1. Optimiser les codes sources serveur et client : impact ++
+- identifier et supprimer le code inutile
+- séparer et minifier le CSS
+- changer de langage (ex Linkedin passé de proxy async avec Ruby on rail à node.js => nb de serveurs nécessaires divisé par 8
+#### 2. Optimiser l'hébergement :
+- choix d'un hébergeur avec "performance environnementale" (énergie renouvelable)
+- rapprocher l'hébergement des visiters grâce à un CDN? (Content Delivery Network)
+
+### 3. Optimisation du contenu : impact ++
+- Optimiser la définition des images et vidéos. (format, dimensions, compressions)
+- Optimiser la taille des textes
+- Proposer du contenu statique par défaut plutôt que dynamique
+
+### Méthode et outils pour un site web allégé
+
+## Etapes
+- Réaliser un état des lieux
+- Identifier et sélectionner des pistes d’amélioration
+- Mettre en place les pistes d’amélioration retenues
+- Mesurer les résultats
+- Partager les résultats
+
+## Outils
+- Google analytics / Matomoto : mesurer l'utilisation (identifier les fonctionctionnalités sous utilisées)
+- Ecoindex et Ecometer : quantifie les gaz à effet de serre émis et la consommation d’eau nécessaire pour afficher une page web
+- Bonnes pratiques : https://s3-eu-west-1.amazonaws.com/course.oc-static.com/courses/6227476/2019-05-Ref-eco_web-checklist.v3.pdf (Collectif Green IT)
