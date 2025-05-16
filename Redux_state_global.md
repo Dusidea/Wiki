@@ -49,7 +49,22 @@ Selectors are functions that know how to extract specific pieces of information 
 - Partager les données du state revient à brancher chaque composant au store.
 - Cela permet de gérer l'état de l'application de manière cohérente et centralisée à travers différents composants.
 - Les composants peuvent interagir avec le store en dispatchant des actions.
-- Le mécanisme est identique, qu’il s’agisse d’une application React ou non.    
+- Le mécanisme est identique, qu’il s’agisse d’une application React ou non.
+
+## Entity Adpater
+
+L’ EntityAdapter  est une fonction qui génère un ensemble de reducers et de sélecteurs destiné à effectuer des opérations CRUD (Create, Read, Update, Delete). Avec cet outil, nous aurons accès à des méthodes comme
+- _addOne_  pour ajouter une entrée,
+-  _addMany_  pour ajouter plusieurs entrées,
+-  _setOne_  pour modifier une entrée,
+-  etc
+Utiliser les EntityAdapter  permet d’implémenter avec peu d’efforts nos nouvelles fonctionnalités.        
+
+###  Créer un Entity Adapter
+
+- fonction _createEntityAdapter_ de Redux Toolkit permet de configurer facilement un adaptateur pour n'importe quel type d'entité et offre la flexibilité de surcharger ou d'adapter les actions CRUD selon les besoins spécifiques de chaque entité.
+- https://redux-toolkit.js.org/api/createEntityAdapter#crud-functions
+- Il faut ensuite ajotuer l'entityAdaptor au store
 
 
 # Architecture
