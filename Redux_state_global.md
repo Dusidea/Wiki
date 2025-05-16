@@ -3,11 +3,12 @@
  Pourquoi une gestion du state global ?
 
 Besoin de partager un même state à plusieurs composants, or un state est local et transmettable par le parent uniquement. On peut faire remonter d'un niveau mais cela complique pas mal les choses.
-
-
  
 - Redux is typically used with the **React-Redux library** for integrating Redux and React together
 - **Redux Toolkit** is the standard way to write Redux logic
+
+Cours OC https://openclassrooms.com/fr/courses/8228131-gerez-votre-application-react-avec-redux-et-redux-toolkit?archived-source=7150626#table-of-content
+
 
 # Logic
 
@@ -115,3 +116,10 @@ Projet 10 Open Classroom ArgentBank
 
 ## RTK Query
 RTK Query is provided as an optional addon within the @reduxjs/toolkit package. It is purpose-built to solve the use case of data fetching and caching, supplying a compact, but powerful toolset to define an API interface layer for your app. It is intended to simplify common cases for loading data in a web application, eliminating the need to hand-write data fetching & caching logic yourself.
+
+- Les web services nous permettent d’ajouter des données et d’exécuter des actions distantes de manière dynamique.
+- Les thunks  peuvent être utilisés pour faire appel à des web services avec fetch  .
+- L’outil Query de Redux Toolkit nous fournit une configuration complète des appels aux web services.
+
+Cours OC https://openclassrooms.com/fr/courses/8228131-gerez-votre-application-react-avec-redux-et-redux-toolkit/8308381-utilisez-des-web-services?archived-source=7150626
+
