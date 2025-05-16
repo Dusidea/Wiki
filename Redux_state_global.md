@@ -123,3 +123,10 @@ RTK Query is provided as an optional addon within the @reduxjs/toolkit package. 
 
 Cours OC https://openclassrooms.com/fr/courses/8228131-gerez-votre-application-react-avec-redux-et-redux-toolkit/8308381-utilisez-des-web-services?archived-source=7150626
 
+### interaction asynchrone, middleware, thunks
+
+- Utiliser l’approche **asynchrone** permet de pouvoir exécuter du JavaScript non bloquant.
+- Utiliser des **middlewares** avec Redux permet d'interagir avec les actions de façon indirecte.
+- Les **thunks** permettent de faire des actions sur le store de façon asynchrone.
+- **createAsyncThunk ** nous permet de créer simplement des thunks et de les ajouter au store.
+
