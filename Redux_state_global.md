@@ -108,3 +108,10 @@ https://redux-toolkit.js.org/introduction/getting-started#using-create-react-app
 https://redux.js.org/tutorials/essentials/part-1-overview-concepts
 https://redux.js.org/tutorials/fundamentals/part-1-overview
 
+## Exemple d'utilisation :
+Projet 10 Open Classroom ArgentBank
+
+# Redux et appels API
+
+## RTK Query
+RTK Query is provided as an optional addon within the @reduxjs/toolkit package. It is purpose-built to solve the use case of data fetching and caching, supplying a compact, but powerful toolset to define an API interface layer for your app. It is intended to simplify common cases for loading data in a web application, eliminating the need to hand-write data fetching & caching logic yourself.
