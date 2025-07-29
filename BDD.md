@@ -31,6 +31,19 @@ Avant de dialoguer avec MySQL, il faut s'y **connecter**. On a besoin
 - DELETE : suppression d'une ou plusieurs entrées.
 Lorsqu'on utilise UPDATE  ou DELETE , il faut penser à filtrer avec un WHERE , sinon toute la table sera affectée par l'opération !
 
+# Grouper les données
+MySQL permet d'exécuter certaines fonctions lui-même, sans avoir à passer par PHP. Ces fonctions modifient les données renvoyées.
+Il existe deux types de fonctions :
+- Les fonctions scalaires : elles agissent sur chaque entrée récupérée. Elles permettent par exemple de convertir tout le contenu d'un champ en majuscules, ou d'arrondir chacune des valeurs.
+- Les fonctions d'agrégat : elles effectuent des calculs sur plusieurs entrées pour retourner une et une seule valeur. Par exemple : calcul de la moyenne, somme des valeurs, comptage du nombre d'entrées…
+
+On peut donner un autre nom aux champs modifiés par les fonctions, en créant des alias à l'aide du mot-clé AS .
+
+Lorsqu'on utilise une fonction d'agrégat, il est possible de regrouper des données avec GROUP BY .
+
+Après un groupement de données, on peut filtrer le résultat avec HAVING . Il ne faut pas le confondre avec WHERE qui filtre avant le groupement des données.
+
+
 
 
 
