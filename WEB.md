@@ -41,3 +41,13 @@ https://www.ionos.fr/digitalguide/hebergement/aspects-techniques/definition-prot
 
 [diagram-of-http-communication-process-fr.png
 ](https://github.com/Dusidea/Wiki/blob/0b9ec8d80498be8ffe5336d20b2e90a24f606be1/diagram-of-http-communication-process-fr.png)
+
+# Site statique vs dynamique
+## site statique 
+- html et css only => tous les user voient la même chose.
+- Le client demande la page et le serveur la renvoie
+
+## site dynamique
+- dynamique : html/css + autres langages serveur => s'adapter à chaque user, accès à des pages perso
+- le contenu change en fonction de l'user, sans intervention du webmaster.
+- Le client demande la page, le serveur gènère la page personnalisée (via un langage capable de communiquer avec le serveur : php/java/python/ruby par ex) et la renvoie au client (en html/css)
